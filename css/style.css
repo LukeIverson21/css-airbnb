@@ -1,24 +1,94 @@
 h1 {
   color: salmon;
   text-align: center;
-}
-
-p {
+ }
+ 
+ p {
   text-align: center;
-}
-
-.row1 {
-display: inline-flex;
-
-}
-
-
-.row2 {
+ }
+ 
+ .row1 {
+  position: relative;
+ display: inline-flex;
+ padding: 35px;
+ /* flex-wrap: wrap;
+ padding: 5px;
+ justify-content: center; */
+ }
+ .item{
+  margin: 5px;
+ }
+ 
+ 
+ 
+ 
+ .row2 {
   display: inline-flex;
-}
-
-.button1 {
-  margin: 0;
-  position: absolute;
+  position: relative;
+ }
+ 
+ .button1 {
+  /* margin: 0;
+  position: absolute; */
+  display: flex;
+  margin: auto;
+  text-align: center;
   
-}
+  
+ }
+ 
+ .button2 {
+  display: flex;
+  margin: auto;
+ }
+ 
+ 
+ .centered1{
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  transform: translateX(-50%, -50%);
+  font-size: 55px;
+  color: white;
+ }
+ 
+ .centered2{
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translateX(-50%, -50%);
+  font-size: 55px;
+  color: white;
+ }
+ .centered3{
+  position: absolute;
+  top: 50%;
+  left: 78%;
+  transform: translateX(-50%, -50%);
+  font-size: 55px;
+  color: white;
+ }
+ .centered4{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateX(-50%, -50%);
+  font-size: 55px;
+  color: white;
+ }
+ .centered5 {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translateX(-50%, -50%);
+  font-size: 55px;
+  color: white;
+ }
+ .centered6 {
+  position: absolute;
+  top: 50%;
+  left: 78%;
+  transform: translateX(-50%, -50%);
+  font-size: 55px;
+  color: white;
+ }
